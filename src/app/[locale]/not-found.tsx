@@ -1,4 +1,4 @@
-import { NotFound404 } from "./components";
+import { NotFound404 } from "./personal-components";
 
 export default async function NotFound() {
   return (

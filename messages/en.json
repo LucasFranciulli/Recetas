@@ -2,5 +2,11 @@
     "NotFound404": {
         "notFound": "Oops... this page does not exist :(",
         "goHome": "Go to the home screen"
+    },
+    "Home": {
+        "title1": "Recetas No",
+        "title2": "Recetazas",
+        "description": "Todas las recetas del libro de mi vieja",
+        "madeBy": "Hecho por Lucas Franciulli"
     }
 }

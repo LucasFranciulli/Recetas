@@ -1,6 +1,8 @@
 import { Input } from "@/components/ui/input";
+import { useTranslations } from "next-intl";
 
 export const SearchBar = () => {
+  const t = useTranslations("Home");
   return (
     <div className="relative w-full">
       <svg
@@ -17,7 +19,7 @@ export const SearchBar = () => {
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         />
       </svg>
-      <Input type="text" placeholder="Search" className="pl-12 pr-4" />
+      <Input type="text" placeholder={t("search")} className="pl-12 pr-4" />
     </div>
   );
 };

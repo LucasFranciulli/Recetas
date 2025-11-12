@@ -6,7 +6,8 @@
     "Home": {
         "title1": "Recetas No",
         "title2": "Recetazas",
-        "description": "Todas las recetas del libro de mi vieja",
-        "madeBy": "Hecho por Lucas Franciulli"
+        "description": "All the recipes come from my momma’s book",
+        "madeBy": "Made by Lucas Franciulli",
+        "search": "Search"
     }
 }

@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Title } from "./Sections/Title";
 import { SearchBar } from "../personal-components";
+import { ArrowDownScroll } from "./ArrowDown";
 
 export default function HomePage() {
   const t = useTranslations("Home");
@@ -12,7 +13,8 @@ export default function HomePage() {
           description={t("description")}
           madeBy={t("madeBy")}
         />
-        <SearchBar />
+        <SearchBar placeholder={t("search")}/>
+        <ArrowDownScroll />
       </div>
     </div>
   );
